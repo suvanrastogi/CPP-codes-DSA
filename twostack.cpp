@@ -5,7 +5,6 @@ class twoStacks {
     int top2;
     
   public:
-
     
 twoStacks() {
     size = 3;  // default size
@@ -32,9 +31,7 @@ twoStacks() {
         }
         // code here
     }
-
-    // Function to remove an element from top of the stack1.
-        
+    // Function to remove an element from top of the stack1.      
     int pop1() {
         // code here
         if(top1!=-1){
@@ -46,7 +43,6 @@ twoStacks() {
             return -1;
         }
     }
-
         
     // Function to remove an element from top of the stack2.
     int pop2() {
